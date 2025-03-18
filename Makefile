@@ -42,6 +42,7 @@ SOURCES=	char/ft_isalnum.c \
 			string/ft_strjoin.c \
 			string/ft_substr.c \
 			string/ft_strdup.c \
+			string/ft_word_count.c \
 			memory/ft_calloc.c \
 			memory/ft_bzero.c \
 			memory/ft_memset.c \

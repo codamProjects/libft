@@ -1,21 +1,21 @@
 
 #include "print_ft.h"
 
-int	ft_putchar(char c)
+int	ft_printchar(char c)
 {
 	return (write(1, &c, 1));
 }
 
-int	ft_putstr(char *str)
+int	ft_printstr(char *str)
 {
 	int	i;
 
 	i = 0;
 	if (str == NULL)
-		return (ft_putstr("(null)"));
+		return (ft_printstr("(null)"));
 	while (str[i])
 	{
-		ft_putchar(str[i]);
+		ft_printchar(str[i]);
 		i++;
 	}
 	return (i);
@@ -36,13 +36,13 @@ int	ft_count(size_t num, size_t base)
 	return (j);
 }
 
-void	ft_putbnum(size_t num, char *bset, size_t base)
+void	ft_printbnum(size_t num, char *bset, size_t base)
 {
 	if (num >= base)
 	{
-		ft_putbnum(num / base, bset, base);
+		ft_printbnum(num / base, bset, base);
 		num = num % base;
 	}
 	if (num < base)
-		ft_putchar(bset[num]);
+		ft_printchar(bset[num]);
 }

@@ -12,3 +12,8 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
+
+void	ft_putstr(char *s)
+{
+	ft_putstr_fd(s, 1);
+}

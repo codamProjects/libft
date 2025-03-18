@@ -1,6 +1,7 @@
 
 #include "num_ft.h"
 
+//incorrect
 static int	num(const char *str, int i)
 {
 	int	num;

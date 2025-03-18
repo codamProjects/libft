@@ -1,7 +1,7 @@
 
 #include "mem_ft.h"
 
-size_t	ft_ptr_array_lenght(void **ptr)
+size_t	ft_ptr_array_length(void **ptr)
 {
 	size_t	i;
 

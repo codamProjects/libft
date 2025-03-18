@@ -1,6 +1,7 @@
 
 #include "num_ft.h"
 
+//incorrect
 int	ft_is_int(char *str)
 {
 	int	i;

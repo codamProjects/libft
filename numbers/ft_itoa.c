@@ -1,6 +1,7 @@
 
 #include "num_ft.h"
 
+//inefficient
 static int	length(int n)
 {
 	int	i;
