@@ -62,11 +62,11 @@ SOURCES=	char/ft_isalnum.c \
 			list/ft_lstclear.c \
 			list/ft_lstiter.c \
 			list/ft_lstmap.c \
-			print/ft_putchar_fd.c \
-			print/ft_putstr_fd.c \
-			print/ft_putendl_fd.c \
-			print/ft_putnbr_fd.c \
-			print/ft_putnbr_base_fd.c \
+			print/ft_putchar.c \
+			print/ft_putstr.c \
+			print/ft_putendl.c \
+			print/ft_putnbr.c \
+			print/ft_putnbr_base.c \
 			print/ft_printf_utils.c \
 			print/ft_printf.c \
 			gnl/get_next_line.c \
